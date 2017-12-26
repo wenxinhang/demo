@@ -14,4 +14,9 @@ public class HelloController {
     public String test(){
         return "successd";
     }
+
+    @RequestMapping("test1")
+    public String test1(){
+        return "111";
+    }
 }
