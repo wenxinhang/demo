@@ -15,7 +15,7 @@ public class HelloController {
         return "successd";
     }
 
-    @RequestMapping("test1")
+    @RequestMapping("/test1")
     public String test1(){
         return "111";
     }
